@@ -1,12 +1,15 @@
 /* HomePage.module.css */
 
 .elliottSaysApp {
-  font-family: "Comic Sans MS", "Chalkboard SE", "Bradley Hand", cursive;
-  background: linear-gradient(135deg, #ffe5f1 0%, #e5f3ff 50%, #f0ffe5 100%);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  background: linear-gradient(135deg, #0a1929 0%, #1a2332 50%, #0d1f2d 100%);
   min-height: 100vh;
-  padding: 20px;
+  width: 100%;
+  padding: 40px 20px;
   position: relative;
   overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 .elliottSaysApp::before {
@@ -16,21 +19,20 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image:
-    radial-gradient(
+  background-image: radial-gradient(
       circle at 20% 80%,
-      rgba(255, 255, 0, 0.1) 0%,
+      rgba(34, 211, 238, 0.08) 0%,
       transparent 50%
     ),
     radial-gradient(
       circle at 80% 20%,
-      rgba(255, 192, 203, 0.1) 0%,
+      rgba(52, 211, 153, 0.06) 0%,
       transparent 50%
     ),
     radial-gradient(
-      circle at 40% 40%,
-      rgba(173, 216, 230, 0.1) 0%,
-      transparent 50%
+      circle at 50% 50%,
+      rgba(59, 130, 246, 0.05) 0%,
+      transparent 60%
     );
   pointer-events: none;
   z-index: 0;
@@ -39,165 +41,188 @@
 .main {
   position: relative;
   z-index: 1;
-  max-width: 1200px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
 .appTitle {
   text-align: center;
-  font-size: 3rem;
-  color: #000000;
-  text-shadow:
-    3px 3px 0px #ffe66d,
-    6px 6px 0px #4ecdc4;
-  margin-bottom: 2rem;
-  transform: rotate(-2deg);
-  animation: bounce 2s ease-in-out infinite alternate;
-}
-
-@keyframes bounce {
-  from {
-    transform: rotate(-2deg) translateY(0px);
-  }
-  to {
-    transform: rotate(-1deg) translateY(-10px);
-  }
+  font-size: 3.5rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #22d3ee 0%, #34d399 50%, #3b82f6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 2.5rem;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
 }
 
 .controls {
   display: flex;
   justify-content: center;
-  gap: 15px;
-  margin-bottom: 30px;
+  gap: 12px;
+  margin-bottom: 40px;
   flex-wrap: wrap;
   align-items: center;
+  padding: 0 10px;
 }
 
 .divider {
-  width: 2px;
-  height: 30px;
-  background: linear-gradient(180deg, transparent, #4ecdc4, transparent);
-  margin: 0 5px;
+  width: 1px;
+  height: 32px;
+  background: linear-gradient(
+    180deg,
+    transparent,
+    rgba(34, 211, 238, 0.3),
+    transparent
+  );
+  margin: 0 8px;
 }
 
 .randomButton {
-  background: linear-gradient(135deg, #ff6b9d, #ffa07a);
-  border: 3px solid #ff6b9d;
-  border-radius: 25px;
+  background: linear-gradient(135deg, #0891b2 0%, #0e7490 100%);
+  border: 2px solid rgba(34, 211, 238, 0.3);
+  border-radius: 12px;
   padding: 12px 24px;
-  font-size: 1rem;
-  font-weight: bold;
+  font-size: 0.95rem;
+  font-weight: 600;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   font-family: inherit;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  color: white;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 4px 12px rgba(255, 107, 157, 0.3);
+  color: #f0fdfa;
+  box-shadow: 0 4px 12px rgba(8, 145, 178, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
 }
 
 .randomButton:hover {
-  transform: scale(1.08) rotate(-2deg);
-  box-shadow: 0 6px 20px rgba(255, 107, 157, 0.5);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(8, 145, 178, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  border-color: rgba(34, 211, 238, 0.5);
 }
 
 .randomButton.active {
-  background: linear-gradient(135deg, #ffa07a, #ff6b9d);
-  transform: scale(1.05);
-  box-shadow: 0 6px 20px rgba(255, 107, 157, 0.6);
+  background: linear-gradient(135deg, #0e7490 0%, #0891b2 100%);
+  border-color: rgba(34, 211, 238, 0.6);
+  box-shadow: 0 6px 16px rgba(8, 145, 178, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
 }
 
 .filterButton {
-  background: rgba(255, 255, 255, 0.9);
-  border: 2px solid #4ecdc4;
-  border-radius: 20px;
+  background: rgba(15, 23, 42, 0.6);
+  border: 2px solid rgba(52, 211, 153, 0.2);
+  border-radius: 12px;
   padding: 10px 20px;
   font-size: 0.9rem;
-  font-weight: bold;
+  font-weight: 600;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   font-family: inherit;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+  color: #d1fae5;
+  backdrop-filter: blur(10px);
 }
 
 .filterButton:hover {
-  background: #4ecdc4;
-  color: white;
-  transform: scale(1.05);
+  background: rgba(52, 211, 153, 0.15);
+  border-color: rgba(52, 211, 153, 0.4);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(52, 211, 153, 0.2);
 }
 
 .filterButton.active {
-  background: #4ecdc4;
-  color: white;
-  box-shadow: 0 4px 12px rgba(78, 205, 196, 0.4);
+  background: linear-gradient(
+    135deg,
+    rgba(52, 211, 153, 0.2),
+    rgba(52, 211, 153, 0.15)
+  );
+  border-color: rgba(52, 211, 153, 0.6);
+  color: #d1fae5;
+  box-shadow: 0 4px 12px rgba(52, 211, 153, 0.3);
 }
 
 .sortButton {
-  background: rgba(255, 255, 255, 0.9);
-  border: 2px solid #ff6b9d;
-  border-radius: 20px;
+  background: rgba(15, 23, 42, 0.6);
+  border: 2px solid rgba(59, 130, 246, 0.2);
+  border-radius: 12px;
   padding: 10px 20px;
   font-size: 0.9rem;
-  font-weight: bold;
+  font-weight: 600;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   font-family: inherit;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+  color: #dbeafe;
+  backdrop-filter: blur(10px);
 }
 
 .sortButton:hover {
-  background: #ff6b9d;
-  color: white;
-  transform: scale(1.05);
+  background: rgba(59, 130, 246, 0.15);
+  border-color: rgba(59, 130, 246, 0.4);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.2);
 }
 
 .sayingsContainer {
   display: flex;
   flex-direction: column;
-  gap: 0;
+  gap: 20px;
 }
 
 .loading {
   text-align: center;
   font-size: 1.5rem;
-  color: #2c3e50;
-  margin-top: 50px;
+  color: #94a3b8;
+  margin-top: 80px;
+  font-weight: 500;
 }
 
 .error {
   text-align: center;
-  font-size: 1.2rem;
-  color: #e74c3c;
-  background: rgba(255, 255, 255, 0.9);
-  padding: 20px;
-  border-radius: 15px;
+  font-size: 1.1rem;
+  color: #fca5a5;
+  background: rgba(15, 23, 42, 0.8);
+  border: 2px solid rgba(239, 68, 68, 0.3);
+  padding: 30px;
+  border-radius: 16px;
   max-width: 600px;
-  margin: 50px auto;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 80px auto;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
 }
 
 .emptyState {
   text-align: center;
   font-size: 1.2rem;
-  color: #7f8c8d;
-  margin-top: 50px;
+  color: #94a3b8;
+  margin-top: 80px;
+  font-weight: 500;
 }
 
 @media (max-width: 768px) {
+  .elliottSaysApp {
+    padding: 30px 15px;
+  }
+
   .appTitle {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .controls {
-    gap: 10px;
+    gap: 8px;
   }
 
   .filterButton,
   .sortButton {
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     padding: 8px 16px;
+  }
+
+  .randomButton {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+
+  .divider {
+    display: none;
   }
 }
