@@ -1,0 +1,203 @@
+/* HomePage.module.css */
+
+.elliottSaysApp {
+  font-family: "Comic Sans MS", "Chalkboard SE", "Bradley Hand", cursive;
+  background: linear-gradient(135deg, #ffe5f1 0%, #e5f3ff 50%, #f0ffe5 100%);
+  min-height: 100vh;
+  padding: 20px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.elliottSaysApp::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image:
+    radial-gradient(
+      circle at 20% 80%,
+      rgba(255, 255, 0, 0.1) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      circle at 80% 20%,
+      rgba(255, 192, 203, 0.1) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      circle at 40% 40%,
+      rgba(173, 216, 230, 0.1) 0%,
+      transparent 50%
+    );
+  pointer-events: none;
+  z-index: 0;
+}
+
+.main {
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.appTitle {
+  text-align: center;
+  font-size: 3rem;
+  color: #000000;
+  text-shadow:
+    3px 3px 0px #ffe66d,
+    6px 6px 0px #4ecdc4;
+  margin-bottom: 2rem;
+  transform: rotate(-2deg);
+  animation: bounce 2s ease-in-out infinite alternate;
+}
+
+@keyframes bounce {
+  from {
+    transform: rotate(-2deg) translateY(0px);
+  }
+  to {
+    transform: rotate(-1deg) translateY(-10px);
+  }
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.divider {
+  width: 2px;
+  height: 30px;
+  background: linear-gradient(180deg, transparent, #4ecdc4, transparent);
+  margin: 0 5px;
+}
+
+.randomButton {
+  background: linear-gradient(135deg, #ff6b9d, #ffa07a);
+  border: 3px solid #ff6b9d;
+  border-radius: 25px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: inherit;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 12px rgba(255, 107, 157, 0.3);
+}
+
+.randomButton:hover {
+  transform: scale(1.08) rotate(-2deg);
+  box-shadow: 0 6px 20px rgba(255, 107, 157, 0.5);
+}
+
+.randomButton.active {
+  background: linear-gradient(135deg, #ffa07a, #ff6b9d);
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(255, 107, 157, 0.6);
+}
+
+.filterButton {
+  background: rgba(255, 255, 255, 0.9);
+  border: 2px solid #4ecdc4;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: inherit;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.filterButton:hover {
+  background: #4ecdc4;
+  color: white;
+  transform: scale(1.05);
+}
+
+.filterButton.active {
+  background: #4ecdc4;
+  color: white;
+  box-shadow: 0 4px 12px rgba(78, 205, 196, 0.4);
+}
+
+.sortButton {
+  background: rgba(255, 255, 255, 0.9);
+  border: 2px solid #ff6b9d;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: inherit;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.sortButton:hover {
+  background: #ff6b9d;
+  color: white;
+  transform: scale(1.05);
+}
+
+.sayingsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin-top: 50px;
+}
+
+.error {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #e74c3c;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 600px;
+  margin: 50px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.emptyState {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .appTitle {
+    font-size: 2rem;
+  }
+
+  .controls {
+    gap: 10px;
+  }
+
+  .filterButton,
+  .sortButton {
+    font-size: 0.8rem;
+    padding: 8px 16px;
+  }
+}

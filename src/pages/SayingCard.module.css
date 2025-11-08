@@ -1,0 +1,196 @@
+/* SayingCard.module.css */
+
+.sayingCard {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 25px;
+  padding: 25px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 2px 4px rgba(255, 255, 255, 0.8);
+  border: 3px solid transparent;
+  background-clip: padding-box;
+  position: relative;
+  transform: rotate(0.5deg);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  animation: slideInUp 0.6s ease-out forwards;
+  opacity: 0;
+}
+
+.sayingCard:nth-child(even) {
+  transform: rotate(-0.5deg);
+}
+
+.sayingCard:hover {
+  transform: rotate(0deg) scale(1.02);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+  cursor: grab;
+}
+
+.sayingCard:nth-child(6n + 1) {
+  border-image: linear-gradient(45deg, #ff6b9d, #4ecdc4) 1;
+}
+
+.sayingCard:nth-child(6n + 2) {
+  border-image: linear-gradient(45deg, #ffe66d, #ff6b9d) 1;
+}
+
+.sayingCard:nth-child(6n + 3) {
+  border-image: linear-gradient(45deg, #4ecdc4, #95e1d3) 1;
+}
+
+.sayingCard:nth-child(6n + 4) {
+  border-image: linear-gradient(45deg, #ffa07a, #ffe66d) 1;
+}
+
+.sayingCard:nth-child(6n + 5) {
+  border-image: linear-gradient(45deg, #95e1d3, #ff6b9d) 1;
+}
+
+.sayingCard:nth-child(6n + 6) {
+  border-image: linear-gradient(45deg, #4ecdc4, #ffa07a) 1;
+}
+
+.sayingText {
+  font-size: 1.4rem;
+  color: #2c3e50;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  font-weight: 600;
+  position: relative;
+  padding: 0 20px;
+  transition: color 0.3s ease;
+}
+
+.sayingCard:hover .sayingText {
+  color: #e74c3c;
+}
+
+.sayingText::before {
+  content: '"';
+  font-size: 3rem;
+  color: #ff6b9d;
+  position: absolute;
+  left: -15px;
+  top: -10px;
+  font-family: serif;
+}
+
+.sayingText::after {
+  content: '"';
+  font-size: 3rem;
+  color: #ff6b9d;
+  position: absolute;
+  right: -10px;
+  bottom: -20px;
+  font-family: serif;
+}
+
+.sayingMeta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  margin-top: 15px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.ageBadge {
+  background: linear-gradient(45deg, #ffe66d, #ffa07a);
+  color: #2c3e50;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dateStamp {
+  font-style: italic;
+  color: #95a5a6;
+}
+
+.favorite {
+  animation: sparkle 3s ease-in-out infinite;
+  border: 4px solid #ffd700 !important;
+}
+
+.favorite::after {
+  content: "⭐";
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  font-size: 2rem;
+  animation: spin 4s linear infinite;
+}
+
+.typeIconFunny::before {
+  content: "😄";
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 1.5rem;
+}
+
+.typeIconSweet::before {
+  content: "💕";
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 1.5rem;
+}
+
+.typeIconClever::before {
+  content: "🧠";
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 1.5rem;
+}
+
+@keyframes slideInUp {
+  from {
+    transform: translateY(50px) rotate(0deg);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0) rotate(0.5deg);
+    opacity: 1;
+  }
+}
+
+@keyframes sparkle {
+  0%,
+  100% {
+    box-shadow: 0 8px 32px rgba(255, 215, 0, 0.3);
+  }
+  50% {
+    box-shadow: 0 8px 32px rgba(255, 215, 0, 0.6);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .sayingCard {
+    margin: 15px 10px;
+    padding: 20px;
+  }
+
+  .sayingText {
+    font-size: 1.2rem;
+  }
+}
