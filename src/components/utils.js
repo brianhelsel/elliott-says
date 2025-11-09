@@ -49,20 +49,30 @@ export function formatDate(dateStr) {
 export function categorizeContent(content) {
   if (!content) return undefined;
 
-  const lowerContent = content.toLowerCase();
+  // Handle array format (new structure)
+  let textToAnalyze = "";
+  if (Array.isArray(content)) {
+    textToAnalyze = content
+      .map((line) => line.text || "")
+      .join(" ")
+      .toLowerCase();
+  } else {
+    // Handle string format (old structure)
+    textToAnalyze = content.toLowerCase();
+  }
 
   // Simple keyword-based categorization
   const funnyWords = ["poop", "butt", "fart", "silly", "funny"];
   const sweetWords = ["love", "hug", "kiss", "miss", "heart"];
   const cleverWords = ["because", "why", "how", "what if", "maybe"];
 
-  if (funnyWords.some((word) => lowerContent.includes(word))) {
+  if (funnyWords.some((word) => textToAnalyze.includes(word))) {
     return "funny";
   }
-  if (sweetWords.some((word) => lowerContent.includes(word))) {
+  if (sweetWords.some((word) => textToAnalyze.includes(word))) {
     return "sweet";
   }
-  if (cleverWords.some((word) => lowerContent.includes(word))) {
+  if (cleverWords.some((word) => textToAnalyze.includes(word))) {
     return "clever";
   }
 

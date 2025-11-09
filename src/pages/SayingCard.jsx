@@ -15,7 +15,17 @@ export function SayingCard({ saying, index }) {
 
   return (
     <div className={cardClasses} style={{ animationDelay: `${index * 0.1}s` }}>
-      <p className={styles.sayingText}>{saying.content}</p>
+      <div className={styles.sayingText}>
+        {Array.isArray(saying.content) ? (
+          saying.content.map((line, i) => (
+            <p key={i} className={styles.dialogueLine}>
+              <strong>{line.speaker}:</strong> {line.text}
+            </p>
+          ))
+        ) : (
+          <p>{saying.content}</p>
+        )}
+      </div>
       <div className={styles.sayingMeta}>
         <span className={styles.ageBadge}>Age {saying.age}</span>
         <span className={styles.dateStamp}>{formatDate(saying.time)}</span>

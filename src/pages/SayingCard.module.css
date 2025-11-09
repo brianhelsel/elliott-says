@@ -9,7 +9,7 @@
   border-radius: 16px;
   padding: 28px;
   margin: 0 auto;
-  max-width: 700px;
+  width: 700px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4),
     inset 0 1px 0 rgba(255, 255, 255, 0.05);
   border: 2px solid rgba(34, 211, 238, 0.2);

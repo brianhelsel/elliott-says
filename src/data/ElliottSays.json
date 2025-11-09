@@ -2,57 +2,135 @@
   {
     "sender": "Madiken Helsel",
     "time": "2025-03-01 13:54:00",
-    "content": "Elliott (seeing a car that was pretty dirty): Dad, are you thinking what I'm thinking?<br>Brian: That the car needs to be power washed?<br>Elliott: Yeah!<br>Brian: Oh wait, I think a tooth brush is better<br>Elliott: Ummm sounds like something needs do be addressed"
+    "content": [
+      {
+        "speaker": "Elliott",
+        "text": "Dad, are you thinking what I'm thinking?"
+      },
+      { "speaker": "Brian", "text": "That the car needs to be power washed?" },
+      { "speaker": "Elliott", "text": "Yeah!" },
+      {
+        "speaker": "Brian",
+        "text": "Oh wait, I think a tooth brush is better."
+      },
+      {
+        "speaker": "Elliott",
+        "text": "Ummm sounds like something needs do be addressed."
+      }
+    ]
   },
   {
     "sender": "Madiken Helsel",
     "time": "2025-02-26 18:28:00",
-    "content": "Elliott: Am I glad to see you! That's a famous word they used in the 1960s."
+    "content": [
+      {
+        "speaker": "Elliott",
+        "text": "Am I glad to see you! That's a famous word they used in the 1960s."
+      }
+    ]
   },
   {
     "sender": "Madiken Helsel",
     "time": "2025-02-19 19:21:00",
-    "content": "Watching videos of Elliott and Malia as newborns<br>Elliott: Now, I'm a teenager. I can't believe it!"
+    "content": [
+      {
+        "speaker": "Elliott",
+        "text": "[Watching videos of Elliott and Malia as newborns] Now, I'm a teenager. I can't believe it!"
+      }
+    ]
   },
   {
     "sender": "Madiken Helsel",
     "time": "2025-02-19 19:09:00",
-    "content": "Elliott: Oh, sorry! I wiped my nose on my napkin. I meant to do it on my sleeve.<br>Brian and Madiken (burst out laughing with horrified looks on their faces)<br>Elliott: I mean I dont know where I meant to wipe it."
+    "content": [
+      {
+        "speaker": "Elliott",
+        "text": "Oh, sorry! I wiped my nose on my napkin. I meant to do it on my sleeve."
+      },
+      {
+        "speaker": "Brian and Madiken",
+        "text": "[burst out laughing with horrified looks on their faces]"
+      },
+      {
+        "speaker": "Elliott",
+        "text": "I mean I don't know where I meant to wipe it."
+      }
+    ]
   },
   {
     "sender": "Madiken Helsel",
     "time": "2025-01-27 19:51:00",
-    "content": "Madiken: Stop being Malia's parent<br>Elliott: I'm not being her parent. I'm being an assistant."
+    "content": [
+      { "speaker": "Madiken", "text": "Stop being Malia's parent" },
+      {
+        "speaker": "Elliott",
+        "text": "I'm not being her parent. I'm being an assistant."
+      }
+    ]
   },
   {
     "sender": "Madiken Helsel",
     "time": "2025-01-13 19:18:00",
-    "content": "Madiken: Malia, what are Grandma and Grandpa going to think of you?<br>Elliott: SO ANNOYING"
+    "content": [
+      {
+        "speaker": "Madiken",
+        "text": "Malia, what are Grandma and Grandpa going to think of you?"
+      },
+      { "speaker": "Elliott", "text": "SO ANNOYING" }
+    ]
   },
   {
     "sender": "Madiken Helsel",
     "time": "2024-12-18 11:58:00",
-    "content": "Elliott (in his tour guide voice): Off to your right, you will see a little clearing"
+    "content": [
+      {
+        "speaker": "Elliott",
+        "text": "[in his tour guide voice] Off to your right, you will see a little clearing"
+      }
+    ]
   },
   {
     "sender": "Madiken Helsel",
     "time": "2024-12-14 13:42:00",
-    "content": "Malia (spilled her milk at lunch): Oh mann!<br>Elliott: Do you want to say life failure?"
+    "content": [
+      { "speaker": "Malia", "text": "[spilled her milk at lunch] Oh mann!" },
+      { "speaker": "Elliott", "text": "Do you want to say life failure?" }
+    ]
   },
   {
     "sender": "Madiken Helsel",
     "time": "2024-11-29 15:00:00",
-    "content": "Brian setting up the Christmas tree and it was taking a while<br>Elliott: Hey Mom! I think you should go get your agenda to see how many days this is going to take Dad!"
+    "content": [
+      {
+        "speaker": "Elliott",
+        "text": "[Brian setting up the Christmas tree and it was taking a while] Hey Mom! I think you should go get your agenda to see how many days this is going to take Dad!"
+      }
+    ]
   },
   {
     "sender": "Madiken Helsel",
     "time": "2024-11-26 13:12:00",
-    "content": "Madiken: im not an expert in building destruction<br>Elliott: Oh, so let's watch a video of that today ."
+    "content": [
+      {
+        "speaker": "Madiken",
+        "text": "I am not an expert in building destruction."
+      },
+      {
+        "speaker": "Elliott",
+        "text": "Oh, so let's watch a video of that today."
+      }
+    ]
   },
   {
     "sender": "Madiken Helsel",
     "time": "2024-11-03 20:04:00",
-    "content": "Madiken putting Elliott to bed: Tomorrow is a school morning, okay?<br>Elliott: Okay, I'm going to sleep in ."
+    "content": [
+      {
+        "speaker": "Madiken",
+        "text": "[putting Elliott to bed] Tomorrow is a school morning, okay?"
+      },
+      { "speaker": "Elliott", "text": "Okay, I'm going to sleep in." }
+    ]
   },
   {
     "sender": "Brian Helsel",
@@ -107,7 +185,7 @@
   {
     "sender": "Madiken Helsel",
     "time": "2024-08-26 19:42:00",
-    "content": "Elliott likes to play you dont know me at the dinner table. It consists of us getting to know his fictitious character by engaging him in many questions. Tonight, he was a 100-year-old and his birthday was yesterday.<br>Madiken: What did you do for your birthday ? Elliott: 100 things, but I can't remember them."
+    "content": "Elliott likes to play you don't know me at the dinner table. It consists of us getting to know his fictitious character by engaging him in many questions. Tonight, he was a 100-year-old and his birthday was yesterday.<br>Madiken: What did you do for your birthday ? Elliott: 100 things, but I can't remember them."
   },
   {
     "sender": "Brian Helsel",
