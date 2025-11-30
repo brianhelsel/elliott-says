@@ -892,82 +892,205 @@
   {
     "sender": "Madiken Helsel",
     "time": "2023-08-26 15:48:56",
-    "content": "Madiken to Malia after a nap: You have a dry diaper!<br>Elliott: Yay! That means she can start underwear."
+    "content": [
+      {
+        "speaker": "Madiken",
+        "text": "[To Malia after a nap] You have a dry diaper!"
+      },
+      {
+        "speaker": "Elliott",
+        "text": "Yay! That means she can start underwear."
+      }
+    ]
   },
   {
     "sender": "Madiken Helsel",
     "time": "2023-08-24 20:13:39",
-    "content": "Elliott talking about how he knows how to do good.<br>Madiken: The holy spirit leads you.<br>Elliott: But how? The holy spirit isn't God.<br>Madiken goes through the trinity.<br>Elliott: And God the King of the Jews. But we don't talk about that. And God the baby."
+    "content": [
+      {
+        "speaker": "Madiken",
+        "text": "[Elliott talking about how he knows how to do good] The holy spirit leads you."
+      },
+      { "speaker": "Elliott", "text": "But how? The holy spirit isn't God" },
+      { "speaker": "Madiken", "text": "[Goes through the trinity" },
+      {
+        "speaker": "Elliott",
+        "text": "And God the King of the Jews. But we don't talk about that. And God the baby."
+      }
+    ]
   },
   {
     "sender": "Madiken Helsel",
     "time": "2023-08-13 10:19:18",
-    "content": "Madiken takes a sip of coffee from a thermos that she is sharing with Brian.<br>Elliott: Mommy, are you going to drink all of daddy's coffee up?<br>Brian: Thanks for looking out for me Elliott!"
+    "content": [
+      {
+        "speaker": "Madiken",
+        "text": "[Takes a sip of coffee from a thermos that she is sharing with Brian]"
+      },
+      {
+        "speaker": "Elliott",
+        "text": "Mommy, are you going to drink all of daddy's coffee up?"
+      },
+      { "speaker": "Brian", "text": "Thanks for looking out for me Elliott!" }
+    ]
   },
   {
     "sender": "Brian Helsel",
     "time": "2023-08-12 15:10:59",
-    "content": "Brian: Are you sleepy? Is it tough being 3 years old?<br>Elliott rubbing his eyes: It's tough being helpful."
+    "content": [
+      {
+        "speaker": "Brian",
+        "text": "Are you sleepy? Is it tough being 3 years old?"
+      },
+      {
+        "speaker": "Elliott",
+        "text": "[Rubbing his eyes] It's tough being helpful."
+      }
+    ]
   },
   {
     "sender": "Leigh Scholl",
     "time": "2023-08-07 09:07:15",
-    "content": "Leigh: Which of you is more responsible?<br>Everleigh: Elliott!<br>Leigh: Which of you is funnier?<br>Elliott: Me!<br>Leigh: Do you know what responsible means? It means that you make good decisions, you do…<br>Elliott hangs up on Leigh"
+    "content": [
+      { "speaker": "Leigh", "text": "Which of you is more responsible?" },
+      { "speaker": "Everleigh", "text": "Elliott!" },
+      { "speaker": "Leigh", "text": "Which of you is funnier?" },
+      { "speaker": "Elliott", "text": "Me!" },
+      {
+        "speaker": "Leigh",
+        "text": "Do you know what responsible means? It means that you make good decisions, you do…"
+      },
+      { "speaker": "Elliott", "text": "[Hangs up on Aunt Leigh]" }
+    ]
   },
   {
     "sender": "Leigh Scholl",
     "time": "2023-07-24 17:49:52",
-    "content": "Elliott to Aunt Leigh: Can you stop talking? I have to have a bowel movement.<br>This was his attempt at asking me politely to \"hold that thought, be right back. \""
+    "content": [
+      {
+        "speaker": "Elliott",
+        "text": "Aunt Leigh, can you stop talking? I need to have a bowel movement. [Elliott's attempt at asking Aunt Leigh politely to 'hold that thought, be right back.']"
+      }
+    ]
   },
   {
     "sender": "Madiken Helsel",
     "time": "2023-07-21 09:02:05",
-    "content": "Elliott looking at his alphabet cereal bowl<br> Elliott: Where is the letter E on here? They forgot about the E! The design was a little hard to read."
+    "content": [
+      {
+        "speaker": "Elliott",
+        "text": "[Looking at his alphabet cereal bowl. The design was a little hard to read.] Where is the letter E on here? They forgot about the E!"
+      }
+    ]
   },
   {
     "sender": "Madiken Helsel",
     "time": "2023-07-20 16:51:03",
-    "content": "Elliott: Mom, you can come in here. Just don't panic!<br>Elliott: What's panic mean?"
+    "content": [
+      {
+        "speaker": "Elliott",
+        "text": "Mom, you can come in here. Just don't panic! What's panic mean?"
+      }
+    ]
   },
   {
     "sender": "Madiken Helsel",
     "time": "2023-06-30 11:57:19",
-    "content": "Madiken: What's your favorite thing to do outside?<br>Elliott: Play in the snow. When will it be snowing again?<br>Madiken: In 6 months.<br>Elliott: That's a long year. I don't want to wait that long"
+    "content": [
+      {
+        "speaker": "Madiken",
+        "text": "What's your favorite thing to do outside?"
+      },
+      {
+        "speaker": "Elliott",
+        "text": "Play in the snow. When will it be snowing again?"
+      },
+      { "speaker": "Madiken", "text": "In 6 months." },
+      {
+        "speaker": "Elliott",
+        "text": "That's a long year. I don't want to wait that long"
+      }
+    ]
   },
   {
     "sender": "Madiken Helsel",
     "time": "2023-06-18 18:37:58",
-    "content": "Brian and Madiken were hugging<br>Elliott: I want to join this piece of expression."
+    "content": [
+      {
+        "speaker": "Elliott",
+        "text": "[Brian and Madiken were hugging] I want to join this piece of expression."
+      }
+    ]
   },
   {
     "sender": "Brian Helsel",
     "time": "2023-05-25 19:10:44",
-    "content": "Brian: Elliott, you have your I love Dad shirt on. Do you love me?<br>Elliott: Yes, I do love you even more than my Thanksgiving dinner!"
+    "content": [
+      {
+        "speaker": "Brian",
+        "text": "Elliott, you have your I love Dad shirt on. Do you love me?"
+      },
+      {
+        "speaker": "Elliott",
+        "text": "Yes, I do love you even more than my Thanksgiving dinner!"
+      }
+    ]
   },
   {
     "sender": "Madiken Helsel",
     "time": "2023-05-23 13:36:21",
-    "content": "Elliott: Don't make any more photocopies until rest time is over and I can watch you!"
+    "content": [
+      {
+        "speaker": "Elliott",
+        "text": "Don't make any more photocopies until rest time is over and I can watch you!"
+      }
+    ]
   },
   {
     "sender": "Madiken Helsel",
     "time": "2023-05-18 16:36:20",
-    "content": "Elliott: Coming out of his room at rest time<br>Elliott: FYI I'm going to go to the bathroom."
+    "content": [
+      {
+        "speaker": "Elliott",
+        "text": "[Coming out of his room at rest time] FYI I'm going to go to the bathroom."
+      }
+    ]
   },
   {
     "sender": "Madiken Helsel",
     "time": "2023-05-18 07:45:49",
-    "content": "Elliott leaving the park: Mom, can you give me some crackers? The Bible says if he is hungry give him something to eat, if he is thirsty give him something to drink."
+    "content": [
+      {
+        "speaker": "Elliott",
+        "text": "[Leaving the park] Mom, can you give me some crackers? The Bible says if he is hungry give him something to eat, if he is thirsty give him something to drink."
+      }
+    ]
   },
   {
     "sender": "Madiken Helsel",
     "time": "2023-05-17 16:19:20",
-    "content": "elliott: hey siri ! can you get me some crackers ?"
+    "content": [
+      {
+        "speaker": "Elliott",
+        "text": "Hey Siri! can you get me some crackers?"
+      }
+    ]
   },
   {
     "sender": "Madiken Helsel",
     "time": "2023-05-17 12:55:06",
-    "content": "Elliott: I said \"Hey Siri!\" How do babies grow?<br>Madiken cringing<br>Elliott: She said I found some videos on the web for you, but it went to your password screen when I clicked it<br>Madiken: Phew"
+    "content": [
+      {
+        "speaker": "Elliott",
+        "text": "I said 'Hey Siri!' How do babies grow?"
+      },
+      { "speaker": "Madiken", "text": "[Cringing]" },
+      {
+        "speaker": "Elliott",
+        "text": "She said I found some videos on the web for you, but it went to your password screen when I clicked it"
+      },
+      { "speaker": "Madiken", "text": "Phew!" }
+    ]
   },
   {
     "sender": "Leigh Scholl",
