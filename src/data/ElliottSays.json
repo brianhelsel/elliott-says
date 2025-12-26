@@ -1095,137 +1095,353 @@
   {
     "sender": "Leigh Scholl",
     "time": "2023-05-16 17:41:54",
-    "content": "Leigh: It's time for me to hang up, okay?<br>Elliott: I want to keep talking.<br>Leigh: What do you want to talk about?<br>Elliott: How was your day? Do you have a dad?"
+    "content": [
+      { "speaker": "Leigh", "text": "It's time for me to hang up, okay?" },
+      { "speaker": "Elliott", "text": "I want to keep talking." },
+      { "speaker": "Leigh", "text": "What do you want to talk about?" },
+      { "speaker": "Elliott", "text": "How was your day? Do you have a dad?" }
+    ]
   },
   {
     "sender": "Madiken Helsel",
     "time": "2023-05-16 12:28:11",
-    "content": "Listening to Rachmaninoff at lunch<br>Elliott: Why is he called rockin' on and off ?"
+    "content": [
+      {
+        "speaker": "Elliott",
+        "text": "[Listening to Rachmaninoff at lunch] Why is he called rockin' on and off?"
+      }
+    ]
   },
   {
     "sender": "Brian Helsel",
     "time": "2023-05-13 16:47:35",
-    "content": "Elliott helping me weed outside<br>Elliott: Daddy, I'm your business helper!<br>Brian: Oh what does a business helper do?<br>Elliott: He helps you do weeds and helps you do deeds!"
+    "content": [
+      {
+        "speaker": "Elliott",
+        "text": "[Elliott helping Brian weed outside] Daddy, I'm your business helper!"
+      },
+      { "speaker": "Brian", "text": "Oh what does a business helper do?" },
+      {
+        "speaker": "Elliott",
+        "text": "He helps you do weeds and helps you do deeds!"
+      }
+    ]
   },
   {
     "sender": "Leigh Scholl",
     "time": "2023-05-09 17:55:02",
-    "content": "Elliott was talking about Everleigh's scrapes and asked how she got them.<br>Leigh: I think she tripped and fell on the sidewalk.<br>Elliott: Maybe she tripped on an ant… on an Aunt Leigh."
+    "content": [
+      {
+        "speaker": "Leigh",
+        "text": "[Elliott was talking about Everleigh's scrapes and asked how she got them] I think she tripped and fell on the sidewalk."
+      },
+      {
+        "speaker": "Elliott",
+        "text": " Maybe she tripped on an ant… on an Aunt Leigh."
+      }
+    ]
   },
   {
     "sender": "Leigh Scholl",
     "time": "2023-05-02 19:45:47",
-    "content": "Madiken reprimanded Elliott for pulling on Malia's legs while she was breastfeeding.<br>Elliott: I'm playing Tug-a-Bug."
+    "content": [
+      {
+        "speaker": "Elliott",
+        "text": "[Madiken reprimanded Elliott for pulling on Malia's legs while she was breastfeeding] I'm playing Tug-a-Bug."
+      }
+    ]
   },
   {
     "sender": "Madiken Helsel",
     "time": "2023-05-02 12:48:29",
-    "content": "Elliott: Does Amen remind you of the men's bathroom?"
+    "content": [
+      {
+        "speaker": "Elliott",
+        "text": "Does Amen remind you of the men's bathroom?"
+      }
+    ]
   },
   {
     "sender": "Brian Helsel",
     "time": "2023-04-30 19:18:55",
-    "content": "Elliott pointing to his ribs: I call these bumpys with joy."
+    "content": [
+      {
+        "speaker": "Elliott",
+        "text": "[Elliott pointing to his ribs] I call these bumpys with joy."
+      }
+    ]
   },
   {
     "sender": "Madiken Helsel",
     "time": "2023-04-30 14:48:37",
-    "content": "Elliott: Which way did we go?<br>Brian: Roe Avenue<br>Elliott: No, which poke-out end?<br>Madiken thinking like Elliott: Rosewood<br>Elliott: Ah.<br>Elliott meant what street did we take to exit our neighborhood."
+    "content": [
+      { "speaker": "Elliott", "text": "Which way did we go?" },
+      { "speaker": "Brian", "text": "Roe Avenue" },
+      { "speaker": "Elliott", "text": " No, which poke-out end?" },
+      { "speaker": "Madiken", "text": "[Thinking like Elliott] Rosewood" },
+      {
+        "speaker": "Elliott",
+        "text": "Ah [Elliott meant what street did we take to exit our neighborhood.]"
+      }
+    ]
   },
   {
     "sender": "Madiken Helsel",
     "time": "2023-04-29 19:53:32",
-    "content": "Elliott: Mommy, can you get me more water in my cup? It spilled slash I knocked it over with my broom.<br> Yes, he said slash."
+    "content": [
+      {
+        "speaker": "Elliott",
+        "text": "Mommy, can you get me more water in my cup? It spilled slash I knocked it over with my broom."
+      }
+    ]
   },
   {
     "sender": "Brian Helsel",
     "time": "2023-04-29 19:02:56",
-    "content": "Brian repeating himself multiple times: Elliott, can you go wash your hands?<br>Elliott not listening<br>Brian: Elliott, are you listening to me or am I taking to a wall?<br>Elliott immediately turns his attention to Brian: Can you talk to a wall?"
+    "content": [
+      {
+        "speaker": "Brian",
+        "text": "[Repeating himself multiple times and Elliott not listening] Elliott, can you go wash your hands? Elliott, are you listening to me or am I taking to a wall?"
+      },
+      {
+        "speaker": "Elliott",
+        "text": "[Immediately turns his attention to Brian] Can you talk to a wall?"
+      }
+    ]
   },
   {
     "sender": "Leigh Scholl",
     "time": "2023-04-27 11:02:01",
-    "content": "Elliott: I touched a dead snake yesterday.<br>Leigh: Oh! What did it feel like when you touched it?<br>Elliott: Uh… dead."
+    "content": [
+      { "speaker": "Elliott", "text": "I touched a dead snake yesterday." },
+      {
+        "speaker": "Leigh",
+        "text": "Oh! What did it feel like when you touched it?"
+      },
+      { "speaker": "Elliott", "text": "Uh... dead." }
+    ]
   },
   {
     "sender": "Madiken Helsel",
     "time": "2023-04-23 19:44:51",
-    "content": "Elliott stalling before bed: How are your feelings going?<br>Madiken: They are good! Thanks for asking. We can talk more about them tomorrow.<br>Elliott: How are your vines?<br>Madiken: What??<br>Elliott lifts up his sleeves and points to his veins."
+    "content": [
+      {
+        "speaker": "Elliott",
+        "text": "[Stalling before bed] How are your feelings going?"
+      },
+      {
+        "speaker": "Madiken",
+        "text": "They are good! Thanks for asking. We can talk more about them tomorrow."
+      },
+      { "speaker": "Elliott", "text": "How are your vines?" },
+      { "speaker": "Madiken", "text": "What??" },
+      {
+        "speaker": "Elliott",
+        "text": "[Lifts up his sleeves and points to his veins.]"
+      }
+    ]
   },
   {
     "sender": "Brian Helsel",
     "time": "2023-04-22 19:06:33",
-    "content": "Elliott: The inside of my mouth hurts.<br>Brian: Why does it hurt?<br>Elliott: I'm talking too much."
+    "content": [
+      { "speaker": "Elliott", "text": "The inside of my mouth hurts." },
+      { "speaker": "Brian", "text": "Why does it hurt?" },
+      { "speaker": "Elliott", "text": "I'm talking too much" }
+    ]
   },
   {
     "sender": "Madiken Helsel",
     "time": "2023-04-21 19:05:51",
-    "content": "Madiken changing Malia's diaper: Oh, wow! That's a lot of bowel movement.<br>Elliott: Oh, wow! You're going to have to take care of that.<br>Madiken changing Malia's diaper again: Oh, wow!<br>Elliott: Good luck truck!"
+    "content": [
+      {
+        "speaker": "Madiken",
+        "text": "[Changing Malia's diaper] Oh, wow! That's a lot of bowel movement."
+      },
+      {
+        "speaker": "Elliott",
+        "text": "Oh, wow! You are going to have to take care of that."
+      },
+      {
+        "speaker": "Madiken",
+        "text": "[Changing Malia's diaper again] Oh, wow!"
+      },
+      { "speaker": "Elliott", "text": "Good luck truck!" }
+    ]
   },
   {
     "sender": "Leigh Scholl",
     "time": "2023-04-20 10:14:37",
-    "content": "Elliott was swatting his hands at dust particles in the air<br>Leigh: What are you doing?<br>Elliott: Getting the dust.<br>Leigh: That's fairy dust!<br>Elliott: No, it's just dust."
+    "content": [
+      {
+        "speaker": "Leigh",
+        "text": "[Elliott was swatting his hands at dust particles in the air] What are you doing?"
+      },
+      { "speaker": "Elliott", "text": "Getting the dust." },
+      { "speaker": "Leigh", "text": "That's fairy dust!" },
+      { "speaker": "Elliott", "text": "No, it's just dust." }
+    ]
   },
   {
     "sender": "Leigh Scholl",
     "time": "2023-04-19 00:37:07",
-    "content": "Elliott: I want to call Everleigh.<br>Leigh: I want to keep talking with you!<br>Elliott whining: I want to call Everleigh!<br>Leigh: Then who will I talk to?<br>Elliott looking devious: Uncle Reed."
+    "content": [
+      { "speaker": "Elliott", "text": "I want to call Everleigh" },
+      { "speaker": "Leigh", "text": "I want to keep talking with you!" },
+      { "speaker": "Elliott", "text": "[Whining] I want to call Everleigh" },
+      { "speaker": "Leigh", "text": "Then who will I talk to?" },
+      { "speaker": "Elliott", "text": "[Looking devious] Uncle Reed" }
+    ]
   },
   {
     "sender": "Brian Helsel",
     "time": "2023-04-18 18:51:53",
-    "content": "Madiken: Elliott, do you want any green onions?<br>Elliott: No, I dont think humans can digest them."
+    "content": [
+      {
+        "speaker": "Madiken",
+        "text": "Elliott, do you want any green onions?"
+      },
+      {
+        "speaker": "Elliott",
+        "text": "No, I do not think humans can digest them."
+      }
+    ]
   },
   {
     "sender": "Madiken Helsel",
     "time": "2023-04-16 12:25:50",
-    "content": "Malia ripped elliotts paper<br>Malia: [grunts]<br>Elliott: Okay you said that! I'll forgive your sins!"
+    "content": [
+      { "speaker": "Malia", "text": "[Grunts while ripping Elliott's paper]" },
+      {
+        "speaker": "Elliott",
+        "text": "Okay you said that! I'll forgive your sins!"
+      }
+    ]
   },
   {
     "sender": "Brian Helsel",
     "time": "2023-03-21 19:20:37",
-    "content": "Elliott: I'm going to put this popsicle stick in my bed so I have a friend at night time. I'm going to name him Napel Bapel."
+    "content": [
+      {
+        "speaker": "Elliott",
+        "text": "I'm going to put this popsicle stick in my bed so I have a friend at night time. I'm going to name him Napel Bapel."
+      }
+    ]
   },
   {
     "sender": "Brian Helsel",
     "time": "2023-03-18 19:49:37",
-    "content": "Elliott annoyingly flapping Grandpa's ear<br>Brian: What are you doing?<br>Elliott: A magic trick."
+    "content": [
+      {
+        "speaker": "Brian",
+        "text": "[Elliott annoyingly flapping Grandpa's ear] What are you doing?"
+      },
+      { "speaker": "Elliott", "text": "A magic trick" }
+    ]
   },
   {
     "sender": "Brian Helsel",
     "time": "2023-03-18 12:22:28",
-    "content": "Elliott to Grandpa: I'm sorry your coat got stuck.<br>Grandpa: Its ok. I was able to get it.<br>Brian: It wasnt like Aunt Leighs coat. Do you remember that she said she needed to cut it?<br>Elliott: Yeah, that was a ga-saster."
+    "content": [
+      {
+        "speaker": "Elliott",
+        "text": "Grandpa, I'm sorry your coat got stuck."
+      },
+      { "speaker": "Grandpa", "text": "Its ok. I was able to get it" },
+      {
+        "speaker": "Brian",
+        "text": "It wasn't like Aunt Leigh's coat. Do you remember that she said she needed to cut it?"
+      },
+      { "speaker": "Elliott", "text": "Yeah, that was a ga-saster." }
+    ]
   },
   {
     "sender": "Leigh Scholl",
     "time": "2023-03-17 13:39:57",
-    "content": "Elliott: My tummy super hurts.<br>Madiken: Do you need to go to the bathroom?<br>Elliott: No it's just a part of how I was born."
+    "content": [
+      { "speaker": "Elliott", "text": "My tummy super hurts." },
+      { "speaker": "Madiken", "text": "Do you need to go to the bathroom?" },
+      { "speaker": "Elliott", "text": "No it's just a part of how I was born." }
+    ]
   },
   {
     "sender": "Brian Helsel",
     "time": "2023-03-09 18:53:27",
-    "content": "Elliott: And I'm going to say GRANDPA!!! Come out of your house and build another snowman."
+    "content": [
+      {
+        "speaker": "Elliott",
+        "text": "And I'm going to say GRANDPA!!! Come out of your house and build another snowman."
+      }
+    ]
   },
   {
     "sender": "Madiken Helsel",
     "time": "2023-03-04 19:53:04",
-    "content": "Elliott talking to Madiken as she kissed him good night (reminiscing about the magic school bus discovers the human body):<br>Elliott: I love blood cells!<br>Madiken: *snorts*<br>Elliott: I'm sorry that a school bus cant fit in our mouth. But it could fit in yours because yours is bigger. But when it comes out it would be super chewn. And all the kids would be like holy moly."
+    "content": [
+      {
+        "speaker": "Elliott",
+        "text": "[Reminiscing about the magic school bus discovers the human body] I love blood cells!"
+      },
+      { "speaker": "Madiken", "text": "[Laughs]" },
+      {
+        "speaker": "Elliott",
+        "text": "I'm sorry that a school bus cant fit in our mouth. But it could fit in yours because yours is bigger. But when it comes out it would be super chewn. And all the kids would be like holy moly."
+      }
+    ]
   },
   {
     "sender": "Leigh Scholl",
     "time": "2023-02-15 13:16:12",
-    "content": "While Elliott told Leigh about his valentine's day cookie decorating party she noted 3 inconsistencies.<br>Leigh: You are what we could call an unreliable narrator.<br>Elliott: No.<br>Leigh: Can you say \"I am an unreliable narrator?\"<br>Elliott: I am a dragon."
+    "content": [
+      {
+        "speaker": "Leigh",
+        "text": "[While Elliott told Leigh about his valentine's day cookie decorating party she noted 3 inconsistencies] You are what we could call an unreliable narrator."
+      },
+      { "speaker": "Elliott", "text": "No" },
+      {
+        "speaker": "Leigh",
+        "text": "Can you say \"I am an unreliable narrator?\""
+      },
+      { "speaker": "Elliott", "text": "I am a dragon." }
+    ]
   },
   {
     "sender": "Brian Helsel",
     "time": "2023-02-04 19:08:32",
-    "content": "Elliott told Brian his full name in the car this afternoon. \"I am Elliott Thomas Helsel\". It was the first time he said it unprompted. This was our conversation later at dinner.<br>Brian: Whats your full name?<br>Elliott: Helsel.<br>Brian: No, your full name.<br>Elliott: Helsel. H-E-L-S-E-L.<br>Brian: Thats your last name. How about your full name?<br>Elliott: Thomas.<br>Brian: Whats your first name? What do we call you?<br>Elliott: My mother's son."
+    "content": [
+      {
+        "speaker": "Elliott",
+        "text": "[Elliott told Brian his full name in the car this afternoon. It was the first time he said it unprompted.] \"I am Elliott Thomas Helsel\"."
+      },
+      {
+        "speaker": "Brian",
+        "text": "[Later at dinner] What is your full name?"
+      },
+      { "speaker": "Elliott", "text": "Helsel" },
+      { "speaker": "Brian", "text": "No, your full name." },
+      { "speaker": "Elliott", "text": "Helsel. H-E-L-S-E-L." },
+      {
+        "speaker": "Brian",
+        "text": "That's your last name. How about your full name?"
+      },
+      { "speaker": "Elliott", "text": "Thomas" },
+      { "speaker": "Brian", "text": "What is your first name?" },
+      { "speaker": "Elliott", "text": "My mother's son." }
+    ]
   },
   {
     "sender": "Madiken Helsel",
     "time": "2023-02-04 14:38:17",
-    "content": "While we were having lunch out of the blue…<br>Elliott : would you be sad if you didnt have a mandarijntje on a hike ?<br>Apparently Madiken is known for certain grab and go snacks"
+    "content": [
+      {
+        "speaker": "Elliott",
+        "text": "[While we were having lunch. Out of the blue...] Would you be sad if you didn't have a mandarijntje on a hike?"
+      },
+      {
+        "speaker": "",
+        "text": "Apparently Madiken is known for certain grab and go snacks."
+      }
+    ]
   },
   {
     "sender": "Madiken Helsel",
